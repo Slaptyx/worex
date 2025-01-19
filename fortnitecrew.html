@@ -155,6 +155,83 @@
     color: #333;
 }
 
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    header {
+        text-align: center;
+    }
+
+    .top-bar {
+        flex-direction: column;
+        font-size: 12px;
+        gap: 5px;
+        padding: 10px;
+    }
+
+    .main-header {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .main-header nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .main-header nav a {
+        margin-right: 0;
+        font-size: 14px;
+    }
+
+    .options {
+        padding: 10px;
+        gap: 15px;
+    }
+
+    .option-box {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .option {
+        width: 90%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        max-width: 100%; /* Spreči prelazak preko granica */
+    }
+
+    .option {
+        width: 90%; /* Podesi širinu na 90% ekrana */
+        max-width: 100%; /* Spreči prelazak preko granica */
+    }
+
+    .option-image {
+        width: 250px;
+        height: 250px;
+        margin-bottom: 15px;
+    }
+
+    .option-text {
+        font-size: 16px;
+        gap: 10px;
+    }
+
+    .option-title {
+        font-size: 20px;
+    }
+
+    .option-price {
+        font-size: 18px;
+    }
+    .payment-options {
+        height: 30px;
+    }
+    
+}
 .option-box2 {
     width: 90%;
     max-width: 843px;
@@ -212,6 +289,9 @@
   width: 40px;
   height: 40px;
 }
+
+
+
     </style>
 </head>
 <body>
