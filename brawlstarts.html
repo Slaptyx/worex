@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="logo.png" type="image/png">
+    <title>Brawl Stars - Worex Prodaja</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Montserrat', Arial, sans-serif;
+            background-color: #f0f8ff;
+            color: #333;
+        }
+
+        header {
+            background-color: #000;
+            color: #fff;
+        }
+
+        .top-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 5px 20px;
+            font-size: 14px;
+            background-color: #000;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+        }
+
+        .top-bar a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .main-header {
+            background-color: #0066ff;
+            padding: 15px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-family: 'Montserrat';
+            text-align: center;
+            justify-content: center;
+        }
+
+
+
+        .main-header nav {
+            display: flex;
+            align-items: center;
+            text-align: center;
+        }
+
+        .main-header nav a {
+            text-decoration: none;
+            color: #ffffff;
+            font-weight: bold;
+            margin-right: 15px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+        }
+
+        .main-header nav a:hover {
+            color: #9b9b9b;
+        }
+
+        .main-header nav a:last-child {
+            margin-right: 0;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #0066ff;
+            min-width: 150px;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: #000;
+            padding: 10px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #f1f1f1;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+.option-box {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 50px;
+    width: 1000px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.option-image {
+    width: 350px;
+    height: 350px;
+    margin-right: 15px;
+}
+
+
+.option-text {
+    display: flex;
+    flex-direction: column;
+    font-size: 17px;
+    gap: 5px;
+}
+.option-skin {
+    display: flex;
+    flex-direction: column;
+    font-size: 17px;
+    gap: 5px;
+    font-weight: bold;
+}
+.option-price {
+    display: flex;
+    flex-direction: column;
+    font-size: 17px;
+    gap: 555px;
+    font-weight: bold;
+    color: #00b900;
+}
+
+.option-title {
+    font-size: 25px;
+    font-weight: bold;
+    color: #333;
+}
+
+.option-box2 {
+    width: 90%;
+    max-width: 843px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 150px;
+    text-align: center;
+    font-weight: bold;
+    color: #333;
+    align-items: center;
+}
+
+.option2-image {
+    width: 50px; /* Promijenite širinu prema želji */
+    height: 50px; /* Promijenite visinu prema želji */
+    margin-right: 15px; /* Dodajte razmak između slike i teksta */
+}
+
+        .middle-section {
+            text-align: center;
+            padding: 55px 20px;
+            background-image: url('djokson.jpg');
+            font-family: 'montserrat';
+            font-weight: bold;
+            font-size: large;
+        }
+
+
+
+        footer {
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            padding: 15px 0;
+            font-size: 14px;
+        }
+        .payment-options {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center; /* Centriranje ikona */
+  gap: 15px;
+  padding: 15px;
+  background-color: rgb(255, 255, 255);
+}
+
+.payment-options a {
+  display: block;
+}
+
+.payment-options img {
+  width: 40px;
+  height: 40px;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="top-bar">
+            <a href="socijalnemreze.html">Socijalne mreze 👈</a>
+            <span>Shop je otvoren 24/7 ✅</span>
+            <a href="https://discord.gg/FrJDpdq9bP">👉 Pridruži se našem Discordu</a>
+        </div>
+        <div class="middle-section">
+            <span></span>
+        </div>
+        <div class="main-header">
+            <nav>
+                <a href="index.html">🏠 Početna</a>
+                <a href="fortnitecrew.html">👻 Fortnite Crew</a>
+                <a href="vbucks.html">💸 V-Bucks</a>
+                <a href="brawlstarts.html">💎 Brawl Stars</a>
+                <a href="mystery.html">🎁 Mystery Box</a>
+                <div class="dropdown">
+                    <a href="#">✨ Razno ▼</a>
+                    <div class="dropdown-content">
+                        <a href="#">Uskoro...</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <div class="options">
+        <div class="option-box">
+            <div class="option">
+                <img src="brawlww.png" alt="Slika 1" class="option-image">
+                <div class="option-text">
+                    <div class="option-title">Brawl Stars</div>
+                    <div class="option-info">Gemovi su premium valuta u Brawl Starsu, koriste se za otključavanje skinova, kutija i specijalnih ponuda. Brawl Pass nudi sezonske nagrade i ekskluzivne skinove, dok Brawl Pass Plus omogućava brži napredak i dodatne bonuse.</div>
+                    <div class="option-info">30 Gems・<span style="color: #00b900; font-weight: bold;">3,70 EUR</span></div>
+                    <div class="option-info">80 Gems・<span style="color: #00b900; font-weight: bold;">7,00 EUR</span></div>
+                    <div class="option-info">170 Gems・<span style="color: #00b900; font-weight: bold;">12,50 EUR</span></div>
+                    <div class="option-info">360 Gems・<span style="color: #00b900; font-weight: bold;">21,00 EUR</span></div>
+                    <div class="option-info">950 Gems・<span style="color: #00b900; font-weight: bold;">50,00 EUR</span></div>
+                    <div class="option-info">Brawl Pass・<span style="color: #00b900; font-weight: bold;">10,00 EUR</span></div>
+                    <div class="option-info">Brawl Pass Plus・<span style="color: #00b900; font-weight: bold;">13,00 EUR</span></div>
+                </div>
+            </div>
+    
+    
+            <div class="payment-options">
+                <a href="https://www.paypal.com" target="_blank">
+                  <img src="174861.png" alt="PayPal" />
+                </a>
+                <a href="https://www.skrill.com" target="_blank">
+                  <img src="skrill_99433.png" alt="Skrill" />
+                </a>
+                <a href="https://www.crypto.com" target="_blank">
+                  <img src="Bitcoin.svg.png" alt="Crypto" />
+                </a>
+                <a>Trenutno, kupovina se vrši isključivo putem našeg Instagram profila.</a>
+              </div>
+
+
+
+</body>
+</html>
