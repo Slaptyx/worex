@@ -219,48 +219,51 @@
   height: 40px;
 }
 
-@media (max-width: 768px) {
-  /* Glavni stilovi za mobilni prikaz */
-  .main-header nav {
-    flex-direction: column; /* Stavke menija jedna ispod druge */
-    align-items: center;
-  }
+@media screen and (max-width: 768px) {
+    body {
+        background-color: #0d87f1; /* Test promene */
+    }
 
-  .main-header nav a {
-    margin-bottom: 10px; /* Dodaj razmak između stavki menija */
-    margin-right: 0; /* Ukloni desni razmak */
-  }
+    .main-header nav {
+        flex-direction: column;
+        align-items: center;
+    }
 
-  .options {
-    flex-direction: column; /* Sekcije jedna ispod druge */
-    align-items: center;
-    gap: 10px; /* Dodaj razmak između sekcija */
-  }
+    .main-header nav a {
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
 
-  .option-box {
-    flex-direction: column; /* Elementi unutar sekcije idu jedan ispod drugog */
-    gap: 20px;
-  }
+    .options {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
 
-  .option {
-    width: 90%; /* Širina elemenata prilagođena ekranu */
-  }
+    .option-box {
+        flex-direction: column;
+        gap: 20px;
+    }
 
-  .option2 {
-    width: 90%; /* Širina drugog bloka za mobilne uređaje */
-    flex-direction: column; /* Slika i tekst jedan ispod drugog */
-    text-align: center;
-  }
+    .option {
+        width: 90%;
+    }
 
-  .option2-image {
-    margin: 0 auto 20px; /* Centriraj sliku i dodaj razmak ispod */
-  }
+    .option2 {
+        width: 90%;
+        flex-direction: column;
+        text-align: center;
+    }
 
-  .payment-options {
-    flex-direction: column; /* Ikonice plaćanja idu jedna ispod druge */
-    align-items: center;
-    gap: 10px; /* Dodaj razmak između ikonica */
-  }
+    .option2-image {
+        margin: 0 auto 20px;
+    }
+
+    .payment-options {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
 }
 
 
