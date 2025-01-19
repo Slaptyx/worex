@@ -219,6 +219,50 @@
   height: 40px;
 }
 
+@media (max-width: 768px) {
+  /* Glavni stilovi za mobilni prikaz */
+  .main-header nav {
+    flex-direction: column; /* Stavke menija jedna ispod druge */
+    align-items: center;
+  }
+
+  .main-header nav a {
+    margin-bottom: 10px; /* Dodaj razmak između stavki menija */
+    margin-right: 0; /* Ukloni desni razmak */
+  }
+
+  .options {
+    flex-direction: column; /* Sekcije jedna ispod druge */
+    align-items: center;
+    gap: 10px; /* Dodaj razmak između sekcija */
+  }
+
+  .option-box {
+    flex-direction: column; /* Elementi unutar sekcije idu jedan ispod drugog */
+    gap: 20px;
+  }
+
+  .option {
+    width: 90%; /* Širina elemenata prilagođena ekranu */
+  }
+
+  .option2 {
+    width: 90%; /* Širina drugog bloka za mobilne uređaje */
+    flex-direction: column; /* Slika i tekst jedan ispod drugog */
+    text-align: center;
+  }
+
+  .option2-image {
+    margin: 0 auto 20px; /* Centriraj sliku i dodaj razmak ispod */
+  }
+
+  .payment-options {
+    flex-direction: column; /* Ikonice plaćanja idu jedna ispod druge */
+    align-items: center;
+    gap: 10px; /* Dodaj razmak između ikonica */
+  }
+}
+
 
     </style>
 </head>
@@ -234,7 +278,7 @@
         </div>
         <div class="main-header">
             <nav>
-                <a href="https://worexprodaja.com/">🏠 Početna</a>
+                <a href="index.html">🏠 Početna</a>
                 <a href="fortnitecrew.html">👻 Fortnite Crew</a>
                 <a href="vbucks.html">💸 V-Bucks</a>
                 <a href="brawlstarts.html">💎 Brawl Stars</a>
